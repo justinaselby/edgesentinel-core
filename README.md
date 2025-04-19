@@ -42,7 +42,7 @@ Contributions and interest are welcome as development ramps up.
 
 ## 📬 Contact
 
-For collaboration inquiries, reach out via email: **hardshellcancer@gmail.com**
+For collaboration inquiries, reach out via email: **justina@edgesentinel**
 
 ---
 
