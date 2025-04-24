@@ -1,12 +1,12 @@
-# EdgeSentinel 🦉🛡️
-
+# EdgeSentinel 🦉🛡️  
 **Patent Pending · Application #63/791,410 · Filed April 19, 2025**
 
-EdgeSentinel is a lightweight, offline-capable Endpoint Detection & Response (EDR) system designed specifically for:
-- Edge infrastructure
-- Air-gapped environments
-- Embedded systems
-- Domain Controllers
+**EdgeSentinel** is a lightweight, offline-capable Endpoint Detection & Response (EDR) system designed specifically for:
+
+- Edge infrastructure  
+- Air-gapped environments  
+- Embedded systems  
+- Domain Controllers  
 
 ---
 
@@ -18,32 +18,50 @@ Many critical devices are left unprotected by modern EDR platforms. EdgeSentinel
 
 ## ⚙️ Key Features (Planned)
 
-- Offline behavioral detection engine
-- Peer-to-peer IOC sharing via local mesh
-- Power-aware operation modes
-- Domain Controller monitoring (privilege abuse, LDAP tampering, etc.)
-- Rollback support to signed baseline configs
+- Offline behavioral detection engine  
+- Peer-to-peer IOC sharing via LAN mesh  
+- Modular AI engine for real-time behavioral anomaly detection  
+- AI-assisted threat classification and response recommendations  
+- Human-in-the-loop analysis with AI-generated summaries  
+- Autonomous suppression of confirmed false positives  
+- Compact footprint for embedded/low-resource environments  
+- Federated learning capabilities for privacy-preserving model updates  
 
 ---
 
-## 📁 Repo Structure
+## 🤖 AI Module: EdgeSentinel.AI
 
-- `/src` — Code for the detection agent, P2P modules, and more
-- `/docs` — Vision, architecture diagrams, and design planning
+**EdgeSentinel.AI** augments traditional detection with artificial intelligence:
 
----
+1. **Detection First**  
+   Lightweight AI models monitor edge activity and flag unusual behaviors with threat-likelihood scores.
 
-## 🚧 Status
+2. **Human-Guided Analysis**  
+   Analysts are provided with natural-language summaries of suspicious activity for fast, informed triage.
 
-This project is in its early **vision-building** stage.
-Contributions and interest are welcome as development ramps up.
+3. **Smart Autonomy**  
+   Confirmed false positives are remembered and suppressed automatically. Containment actions are only taken when verified by prior human feedback.
 
----
-
-## 📬 Contact
-
-For collaboration inquiries, reach out via email: **justina@edgesentinel**
+This hybrid system learns over time, combining the pattern-recognition power of AI with the judgment and intuition of skilled defenders — a true *symbiotic security* approach.
 
 ---
 
-*© 2025 Justina Selby · All rights reserved.*  
+## 📦 Deployment Goals
+
+EdgeSentinel is being developed to run on:
+
+- Raspberry Pi, Jetson Nano, and similar SoCs  
+- Industrial control systems and local Windows/Linux servers  
+- Air-gapped operational technology (OT) environments  
+
+---
+
+## 🌐 Vision
+
+Our mission is to provide security where it's needed most — **on the edge**.  
+EdgeSentinel empowers defenders with a tool that learns, adapts, and protects even when the internet is unavailable.  
+With **EdgeSentinel.AI**, we bring the intelligence *to* the device — not the other way around.
+
+---
+
+**Built for defenders. Powered by intuition. Grown through intelligence.**
