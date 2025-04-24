@@ -1,51 +1,50 @@
-🛣️ EdgeSentinel Roadmap
-Patent Pending · Application #63/791,410 · Filed April 19, 2025
+# 🛣️ EdgeSentinel Development Roadmap
 
-EdgeSentinel is in active vision-building mode. This roadmap outlines planned development phases and future goals.
+---
 
-✅ Phase 1: Foundation (In Progress)
- Provisional patent filed
+## ✅ Phase 1: Core System MVP (In Progress)
+- [x] Offline behavioral monitoring agent  
+- [x] Local log collection and basic alerting  
+- [ ] Peer-to-peer IOC sharing over LAN mesh  
+- [ ] CLI-based management and alert dashboard  
 
- Project vision documented
+---
 
- GitHub repo established
+## 🚧 Phase 2: AI Module — EdgeSentinel.AI (Detection Layer)
+- [ ] Integrate lightweight ML model for local anomaly detection  
+- [ ] Develop scoring system for threat likelihood  
+- [ ] Include modular config to enable/disable AI module  
 
- Dev circle gathering
+---
 
- Basic heartbeat + peer communication prototype
+## 🧠 Phase 3: Human-Guided Threat Triage
+- [ ] Generate natural-language summaries of AI-detected events  
+- [ ] Simple UI/CLI feedback loop for human analysts to verify alerts  
+- [ ] Store confirmed false positives and enrich future detections  
 
- Offline logging engine (file-based or SQLite)
+---
 
- Detect simple behaviors (e.g., repeated file access)
+## 🤖 Phase 4: Smart Autonomy Layer
+- [ ] Build auto-suppression logic for repetitive false positives  
+- [ ] Safe-mode autonomous containment (e.g., kill process, block IP)  
+- [ ] Add audit trail logging for all AI-driven actions  
 
-🔍 Phase 2: Modular Expansion
- Power-aware mode toggle
+---
 
- Configurable thresholds for anomaly detection
+## 🔐 Phase 5: Privacy + Federated Learning
+- [ ] Support local model updates from approved training data  
+- [ ] Explore federated learning frameworks (e.g., Flower, PySyft)  
+- [ ] Research OT-safe AI model update strategies  
 
- Secure peer-to-peer IOC sharing via MQTT or signed UDP
+---
 
- Rollback to signed config state
+## 🌍 Phase 6: Public Beta + Community Feedback
+- [ ] Launch pilot with early adopters (open or invite-only)  
+- [ ] Collect performance data from diverse environments  
+- [ ] Refine based on real-world edge use cases and user input  
 
-🛡️ Phase 3: Domain Controller Security
- Monitor LDAP, Kerberos, and PowerShell behavior
+---
 
- Alert on suspicious privilege escalation
-
- Track group membership and login pattern anomalies
-
-🌐 Phase 4: Dev + Community
- Launch GitHub Pages landing site
-
- Publish basic usage instructions
-
- Add CONTRIBUTING.md for new collaborators
-
- Optional: Package as installable agent
-
-This roadmap will evolve.
-Contributors are welcome, but respect the heart of this work:
-🦉 Protect the unseen. Defend the edge.
-
-— Justina Selby
-
+**EdgeSentinel is built to defend.  
+EdgeSentinel.AI is built to learn.  
+Together, they grow.**  
